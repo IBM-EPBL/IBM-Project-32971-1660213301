@@ -15,3 +15,7 @@ Drive link :https://docs.google.com/document/d/1Lqc7rIuiLBWXI1L6xQp535yLLUIYJxAd
 
 LARANI k
 Goole Drive Link : https://drive.google.com/file/d/1DI5PHPoWD_fLp7iIT65eW2FF9hhfIyMo/view?usp=sharing
+
+Krishna priya M
+IBM cognos link : https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&pathRef=.my_folders%2FPharma&action=view&mode=dashboard&subView=model0000018379284a56_00000000
+Google drive link : https://docs.google.com/document/d/1T36_CkEEu_ArAvqZQ0Ai3xg5jkNShAlI/edit?usp=sharing&ouid=101756941071658430708&rtpof=true&sd=true

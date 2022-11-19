@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head> <title>SALES DATA ANALYSIS</title> </head>
+<body>
+<style>
+body{
+	 height: 650px;
+     background: linear-gradient(to bottom,  #66ccff 0%, #cc33ff 98%);
+	 }
+h4{
+	padding-left:300px;
+	font-size: 25px;
+	font-family: cursive;
+	color: black;		 
+	}
+	  h3{
+		 padding-left:800px;
+		 padding-right:10px;
+	     font-size: 20px;
+		 font-family: serif;
+		 color: #ffe6f2;		 
+	  }
+	  
+	  p{
+		 padding-left:10px;
+		 padding-right:600px;
+	     font-size: 20px;
+		 font-family: serif;
+		 color: white;		 
+	  }
+	    .wrapper {
+        margin: 80px auto;
+        text-align: center;
+        width: 100%;
+        position: relative;
+      }
+      .button {
+        padding: 15px 100px;
+        margin: 10px 4px;
+        color: #eee;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid;
+      }
+      .button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        -webkit-transform: scaleY(.1);
+        transform: scaleY(.1);
+        transition: all .4s
+      }
+      .button:hover {
+        color: #b414ba;
+      }
+      .button:hover::before {
+        opacity: 1;
+        background-color: skyblue;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+        transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+      }
+	   .glow {
+        font-size: 30px;
+        color: #ffffff;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                       0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+        }
+        to {
+          text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                       0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+      }
+	  
+	  </style>
+
+<h4 class="glow"> WELCOME TO GLOBAL SALES DATA ANALYTICS !!! </h4>
+<h3> “Data analytics is the future, and the future is NOW! Every mouse click, keyboard button press, swipe or tap is used to shape business decisions. Everything is about data these days. Data is information, and information is power.”</br>             ~ Radi</h3>
+<p>Global Sales Data Analysis<p>
+<p>Sales analysis is using data to evaluate sales team performance. It provides valuable insights about the top performing and underperforming products/services, selling and market opportunities, and includes sales forecasting.</p>
+<p>Shopping online is currently the need of the hour. Because of this COVID, it's not easy to walk in a store randomly and buy anything you want. So, try to understand a few things like, Customer Analysis and Product Analysis of this Global Super Store</p>
+<h1 class="glow">Following button contains DASHBOARD, STORY and REPORT of the dataset</h1> 
+<div class="wrapper">
+      <span class="button" onclick="window.open('https://us3.ca.analytics.ibm.com/bi/?perspective=dashboard&pathRef=.my_folders%2FProject%2FPROJECT%2BDASHBOARD&action=view&mode=dashboard&subView=model000001847a4bd3cf_00000000','_blank')">DASHBOARD</span>
+      <span class="button" onclick="window.open('https://us3.ca.analytics.ibm.com/bi/?perspective=story&pathRef=.my_folders%2FProject%2FANALYSIS%2BSTORY&action=view&sceneId=model000001847ab2d1f0_00000002&sceneTime=0','_blank')">STORY</span>
+	  <span class="button" onclick="window.open('https://us3.ca.analytics.ibm.com/bi/?pathRef=.my_folders%2FProject%2FPROJECT%2BREPORT%2B1&action=run&format=HTML&prompt=false','_blank')">REPORT</span>
+	  
+    </div>
+	 
+</body>
+</html>
